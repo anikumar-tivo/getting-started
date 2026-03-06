@@ -4,7 +4,7 @@ const express = require("express");
 const path = require("path");
 
 const app = express();
-const PORT = 4100;
+const PORT = process.env.PORT || 4100;
 
 const FRAME_ANCESTORS = process.env.CSP_FRAME_ANCESTORS || "";
 
