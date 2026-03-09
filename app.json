@@ -2,9 +2,8 @@
   "appId": "getting-started",
   "name": "Getting Started",
   "description": "Introduction to the dashboard platform",
-  "icon": "/assets/icon.png",
-  "banner": "/assets/banner.png",
-  "technology": "html",
-  "port": 4100,
-  "entry": "/"
+  "icon": "assets/icon.png",
+  "banner": "assets/banner.png",
+  "technology": "static",
+  "entry": "index.html"
 }
